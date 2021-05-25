@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests the Header component 1`] = `
+<header>
+  <div
+    className="logo"
+  >
+    ITUNES
+  </div>
+  <div
+    className="menu"
+  >
+    <ul>
+      <li>
+        <a
+          href="homeID"
+          id="homeheader"
+        >
+          HOME
+        </a>
+      </li>
+      <li>
+        <a
+          className="search"
+          href="#searchId"
+        >
+          SEARCH
+        </a>
+      </li>
+      <li>
+        <a
+          className="favourites"
+          href="#favouritesId"
+        >
+          FAVOURITES
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+`;

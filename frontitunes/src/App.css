@@ -1,0 +1,230 @@
+body {
+  text-align: center;
+  background-color: #f9f7f7;
+  height: 100%;
+}
+/* ------------- Nav Bar ----------------- */
+/*background: linear-gradient(to top, transparent); */
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+  background-color: rgb(232, 232, 232);
+}
+
+
+.logo {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  letter-spacing:3px ;
+  
+
+}
+
+.nav-links a {
+  color: #0c0c0c;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing:3px ;
+  font-weight: bold;
+}
+
+.nav-links li {
+
+  list-style: none;
+}
+
+.burger{
+  display:none;
+}
+
+
+
+.burger div{
+
+  width: 25px;
+  height: 3px;
+  background-color: rgb(0, 0, 0) ;
+  margin: 5px;
+}
+
+.mobile-links{
+  display: none;
+}
+
+/* ------------------------------------------ */
+
+.Delete {
+  padding: 12px;
+  border-radius: 70px;
+  background-color: rgb(252, 140, 140);
+  display: inline-block;
+  width: 200px;
+}
+.deleteDiv {
+  padding: 2rem;
+
+  background-color: #f9f7f7;
+
+  border: rgb(255, 255, 255) 3px solid;
+  margin: 1rem;
+  background-color: #f9f7f7;
+}
+
+.favouritesId {
+  display: inline-block;
+  
+  padding: 2rem;
+
+  background-color: #f9f7f7;
+
+  display: inline-block;
+  
+  margin-top: 150px;
+  border: solid black;
+}
+
+
+.logoImg {
+  width: 1450px;
+}
+
+
+.searchDiv {
+  height: 200px;
+}
+
+.searchButton {
+  padding: 10px;
+  border-radius: 70px;
+  background-color: rgb(147, 211, 230);
+ 
+}
+
+.favButton {
+  padding: 10px;
+  border-radius: 70px;
+  background-color: rgb(255, 204, 204);
+}
+
+.artistName,
+.select {
+  border: solid black;
+  font-size: medium;
+  height: 20px;
+  margin-top: 20px;
+}
+
+
+
+.display-card-body {
+  width: 19rem;
+  display: inline-block;
+  
+  height: 350px;
+
+  border: rgb(255, 255, 255) 3px solid;
+  margin: 1rem;
+  background-color: #f9f7f7;
+}
+
+.card-img {
+  width: 150px;
+  padding: 1rem 1rem 0rem 1rem;
+}
+
+.card-type {
+  text-transform: capitalize;
+  font-size: small;
+}
+
+.favouriteBlock {
+  background-color: rgb(61, 122, 235);
+  height:auto;
+}
+
+.insideFavourite {
+  padding-top: 50px;
+}
+
+/*------- Media Queries -----------------  */
+@media screen and (max-width:1024px) {
+.nav-links{
+  width: 60%;
+}
+}
+
+
+@media screen and (max-width:800px){
+  .logoImg {
+    width: 800px;
+  }
+ 
+ 
+}
+
+/* ---------- Navbar Media Query------------ */
+
+@media screen and (max-width:768px){
+  .logoImg {
+    width: 768px;
+  }
+
+
+    
+
+  .mobile-links {
+    position: absolute;
+    justify-content: space-around;
+    right: 0px;
+    height: 92vh;
+    top: 6vh;
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    transition: transform 0.5s ease-in; 
+    
+    
+    }
+
+  .mobile-links a {
+    color: #0c0c0c;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing:3px ;
+    font-weight: bold;
+  }
+
+  .mobile-links li {
+    list-style: none;
+  }
+  
+
+  .burger{
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-links{
+    display: none;
+  }
+
+ 
+}
+
+
+
+
+
