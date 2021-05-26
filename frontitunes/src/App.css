@@ -164,13 +164,7 @@ body {
 }
 
 
-@media screen and (max-width:800px){
-  .logoImg {
-    width: 800px;
-  }
- 
- 
-}
+
 
 /* ---------- Navbar Media Query------------ */
 
