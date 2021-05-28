@@ -168,11 +168,31 @@ body {
 
 /* ---------- Navbar Media Query------------ */
 
+@media screen and (max-width:1000px){
+  .logoImg {
+    width: 1000px;
+  
+}
+
 @media screen and (max-width:400px){
   .logoImg {
     width: 400px;
   }
+}
 
+  @media screen and (max-width:390px){
+    .logoImg {
+      width: 390px;
+    }
+  
+  }
+  @media screen and (max-width:380px){
+    .logoImg {
+      width: 380px;
+    }
+  
+
+  }
 
     
 
